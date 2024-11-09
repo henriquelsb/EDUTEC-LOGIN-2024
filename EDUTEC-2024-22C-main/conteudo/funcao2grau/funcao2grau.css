@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+@font-face {
+    font-family: 'Greenth';
+    src: url('../../fonts/Greenth_Personal_Use.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --yellow: #fcc521;
+    --light-yellow: #FFD249;
+    --orange: #F6A50F;
+    --blue: #181D47;
+    --light-blue: #DCDDE3;
+    --white: #fff;
+}
+
+body.dark-theme #container{
+    background-color: var(--blue);
+}
+
+body {
+    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    background-color: var(--yellow);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 280px;
+}
+
+.logo {
+    transform: translate(45px, 10px);
+}
+
+.menu {
+    background-color: var(--orange);
+    margin: 60px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.menu {
+    transform: translate(25px);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.icone-sol {
+    max-width: 125px;
+    cursor: pointer; 
+}
+
+.icone-sol {
+    transform: translate(-20px, 0);
+}
+
+.login {
+    max-width: 145px;
+    cursor: pointer;
+}
+
+.login {
+    transform: translate(-65px, 0);
+}
+
+.icone-lua {
+    max-width: 125px;
+    cursor: pointer;
+}
+
+body.dark-theme .fundo-amarelo {
+    background-color: var(--light-blue);
+}
+
+.fundo-amarelo {
+    display: flex;
+    margin: 40px;
+    width: 1300px;
+    height: 1880px;
+    border-radius: 40px;
+    background-color: var(--light-yellow);
+}
+
+.seta-direita {
+    width: 50px;
+    margin-top: 50px;
+}
+
+.texto {
+    color: var(--blue);
+    margin: 50px;
+}
+
+.texto h1 {
+    font-size: 40px;
+    margin-bottom:30px;
+    font-family: 'Greenth';
+    font-weight: 400;
+}
+
+.texto h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+
+.texto-h3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 125px;
+}
+
+.texto h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 18px 0;
+}
+
+.texto p {
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.seta-direita {
+    margin-top: -50px;
+}
+
+.seta-direita {
+    transform: translate(1150px, 40px);
+}
+
+.img-ex-equacoes {
+    display: flex;
+    justify-content: center;
+}
+
+body.dark-theme .img-equacao {
+    border: 5px solid var(--blue);
+}
+
+.img-equacao {
+    width: 400px;
+    border-radius: 30px;
+    border: 5px solid var(--orange);
+    margin: 30px 0;
+}
+
+body.dark-theme .img-completa {
+    border: 5px solid var(--blue);
+}
+
+body.dark-theme .img-incompleta {
+    border: 5px solid var(--blue);
+}
+
+
+.img-completa,
+.img-incompleta{
+    width: 400px;
+    border-radius: 30px;
+    border: 5px solid var(--orange);
+}
+
+.img-equacao {
+    transform: translate(425px, 0);
+}
+
+.img-completa{
+    transform: translate(-45px, -10px);
+}
+
+.img-incompleta{
+    transform: translate(40px, -10px);
+}
+
+.botao-mm,
+.botao-va{
+    background-color: var(--blue);
+    position: absolute;
+    padding: 30px 120px;
+    border-radius: 20px;
+}
+
+.botao-mm {
+    transform: translate(342px, 25px);
+}
+
+.botao-va {
+    transform: translate(612px, 25px);
+}
+
+.img-mm,
+.img-va {
+    width: 75px;
+}
+
+.img-mm {
+    transform: translate(340px, 32px);
+}
+
+.img-va {
+    transform: translate(525px, 34px);
+}
+
+.titulo-mm,
+.titulo-va {
+    position: absolute;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.titulo-mm {
+    transform: translate(415px, 45px);
+}
+
+.titulo-va{
+    transform: translate(692px, 45px);
+}
+
+.titulo-mm:hover {
+    text-decoration: underline;
+}
+
+.titulo-va:hover {
+    text-decoration: underline;
+}

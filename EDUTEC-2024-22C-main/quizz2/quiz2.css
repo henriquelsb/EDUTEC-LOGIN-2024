@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --yellow: #fcc521;
+    --orange: #F6A50F;
+    --blue: #181D47;
+    --white: #fff;
+    --color-button: #B7B9C6;
+    --green: #448043;
+    --red: #C01E1E;
+}
+
+#container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.seta-esquerda {
+    width: 60px;
+    margin-bottom: -80px;
+    margin-left: 60px;
+}
+
+body {
+    background: var(--yellow);
+}
+
+div.total {
+    background: var(--blue);
+    width: 900px;
+    height: 450px;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 54px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+div.total button {
+    background: var(--color-button);
+    width: 350px;
+    height: 90px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.total h1 {
+    color: var(--yellow);
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding: 50px;
+    font-weight: 400;
+}
+
+.total p {
+    text-align: center;
+    color: var(--white);
+    margin-top: -40px;
+    font-size: 23px;
+}
+
+.total button strong {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.botao-proxima {
+    width: 180px;
+    height: 70px;
+    background-color: var(--blue);
+    color: var(--yellow);
+    font-size: 25px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.botao-proxima {
+    transform: translate(860px, 730px);
+}
+
+.correct {
+    background-color: var(--green) !important;
+}
+
+.incorrect {
+    background-color: var(--red) !important;
+}

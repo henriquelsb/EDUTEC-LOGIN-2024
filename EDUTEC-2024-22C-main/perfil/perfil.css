@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+@font-face {
+    font-family:'Greenth';
+    src: url('./fonts/Greenth_Personal_Use.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --yellow: #fcc521;
+    --light-yellow: #FFD249;
+    --orange: #F6A50F;
+    --light-orange-hover: #FFBB3D;
+    --blue: #181D47;
+    --light-blue-hover: #242953;
+    --white: #fff;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+body.dark-mode #container {
+    background-color: var(--blue);
+}
+
+#container {
+    background-color: var(--yellow);
+    width: 1440px;
+    height: 950px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 280px;
+}
+
+.logo {
+    transform: translate(45px, 10px);
+}
+
+.menu {
+    background-color: var(--orange);
+    margin: 60px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.menu {
+    transform: translate(25px);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.icone-sol {
+    max-width: 125px; 
+    cursor: pointer;
+}
+
+.icone-sol {
+    transform: translate(-20px, 0);
+}
+
+.login {
+    max-width: 145px;
+    cursor: pointer;
+}
+
+.login {
+    transform: translate(-65px, 0);
+}
+
+body.dark-mode .fundo-azul {
+    background-color: var(--orange);
+}
+
+.fundo-azul {
+    width: 520px;
+    height: 530px;
+    border-radius: 50px;
+    background-color: var(--blue);
+    margin-top: 40px;
+    margin-bottom: 80px;
+    transform: translate(480px);
+}
+
+form input {
+    width: 85%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+form input {
+    transform: translate(38px, 80px);
+}
+
+form input::placeholder {
+    color: var(--blue);
+}
+
+body.dark-mode form button {
+    background-color: var(--blue);
+    color: var(--orange);
+}
+
+form button {
+    width: 50%;
+    padding: 15px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 30px;
+    color: var(--blue);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+body.dark-mode form button:hover {
+    background-color: var(--light-blue-hover);
+}
+
+form button:hover {
+    background-color: var(--light-orange-hover)
+}
+
+form button {
+    transform: translate(132px, 100px);
+}
+
+form h1 {
+    color: var(--yellow);
+    transform: translate(200px, 40px);
+    font-family: 'Greenth';
+    font-weight: 500;
+    font-size: 40px;
+}

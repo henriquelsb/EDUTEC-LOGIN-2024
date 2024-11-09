@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+@font-face {
+    font-family:'Greenth';
+    src: url('./fonts/Greenth_Personal_Use.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --yellow: #fcc521;
+    --orange: #F6A50F;
+    --light-orange-hover: #FFBB3D;
+    --blue: #181D47;
+    --white: #fff;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+body.dark-mode #container {
+    background-color: var(--blue);
+}
+
+#container {
+    background-color: var(--yellow);
+    width: 1440px;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 280px;
+}
+
+.logo {
+    transform: translate(45px, 10px);
+}
+
+.menu {
+    background-color: var(--orange);
+    margin: 60px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.menu {
+    transform: translate(25px);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.icone-sol {
+    max-width: 125px; 
+    cursor: pointer;
+}
+
+.icone-sol {
+    transform: translate(-20px, 0);
+}
+
+.login {
+    max-width: 145px;
+    cursor: pointer;
+}
+
+.login {
+    transform: translate(-65px, 0);
+}
+
+.fundo1,
+.fundo2,
+.fundo3,
+.fundo4,
+.fundo5 {
+    background-color: var(--blue);
+    width: 1060px;
+    height: 85px;
+    border-radius: 15px;
+    transform: translate(210px, 20px);
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: var(--yellow);
+    font-size: 50px;
+    transform: translate(40px, 14px);
+}
+
+.email,
+.conteudo-fq,
+.conteudo-fb {
+    color: var(--yellow);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pontos-fq,
+.pontos-fb {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.email {
+    transform: translate(140px, -27px);
+}
+
+.conteudo-fq {
+    transform: translate(420px, -49px);
+}
+
+.conteudo-fb {
+    transform: translate(718px, -95px);
+}
+
+.pontos-fq {
+    transform: translate(660px, -72px);
+}
+
+.pontos-fb {
+    transform: translate(1000px, -118px);
+}

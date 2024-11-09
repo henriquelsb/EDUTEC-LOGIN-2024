@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --yellow: #fcc521;
+    --orange: #F6A50F;
+    --blue: #181D47;
+    --white: #fff;
+}
+
+body {
+    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.dark-mode #container {
+    background-color: var(--blue);
+}
+
+#container {
+    background-color: var(--yellow);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 280px;
+}
+
+.logo {
+    transform: translate(45px, 10px);
+}
+
+.menu {
+    background-color: var(--orange);
+    margin: 60px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.menu {
+    transform: translate(25px);
+}
+
+.icone-sol {
+    max-width: 125px;
+    cursor: pointer;
+}
+
+.icone-sol {
+    transform: translate(-20px, 0);
+}
+
+.login {
+    max-width: 145px;
+    cursor: pointer;
+}
+
+.login {
+    transform: translate(-65px, 0);
+}
+
+.setas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seta {
+    min-width: 550px;
+    min-height: 100px;
+}
+
+.setas {
+    transform: translate(70px);
+}
+
+body.dark-mode .titulo a {
+    color: var(--blue);
+}
+
+.titulo a {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+body.dark-mode .t1 {
+    transform: translate(595px, -640px);
+}
+
+body.dark-mode .t2 {
+    transform: translate(570px, -493px);
+}
+
+body.dark-mode .t3 {
+    transform: translate(596px, -348px);
+}
+
+body.dark-mode .t4 {
+    transform: translate(640px, -203px);
+}
+
+.t1 {
+    transform: translate(595px, -652px);
+}
+
+.t2 {
+    transform: translate(570px, -505px);
+}
+
+.t3 {
+    transform: translate(596px, -360px);
+}
+
+.t4 {
+    transform: translate(640px, -215px);
+}
+
+.titulo a:hover {
+    text-decoration: underline;
+}

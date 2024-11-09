@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fale_conosco.css">
+    <title>EDUTEC</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <a href="../index.html">
+                <img src="../imagens/logo.svg" alt="Logo" class="logo" id="logo">
+            </a>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="../conteudo/conteudo.html">CONTEÚDO</a></li>
+                    <li><a href="../pratique/pratique.html">PRATIQUE</a></li>
+                    <li><a href="../sobre_nos/sobre_nos.html">SOBRE NÓS</a></li>
+                    <li><a href="../fale_conosco/fale_conosco.html">FALE CONOSCO</a></li>
+                </ul>
+            </nav>
+            <div>
+                <img src="../imagens/icone_sol.svg" alt="Sol" class="icone-sol" id="theme-toggle">
+            </div>
+            <a href="../login/login.html">
+                <img src="../imagens/login.png" alt="login" class="login">
+            </a>
+        </header>
+        <main>
+            <div class="fundo-azul">
+                <form>
+                    <input type="text" name="nome" placeholder="Nome Completo" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="assunto" placeholder="Assunto" required>
+                    <textarea name="mensagem" placeholder="Mensagem (máx 300 caracteres)" maxlength="300" required></textarea>
+                    <button type="submit">ENVIAR</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="fale_conosco.js"></script>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("FPtphOwxKC-cHfgQs");
+        })();
+    </script>
+    
+
+</body>
+</html>

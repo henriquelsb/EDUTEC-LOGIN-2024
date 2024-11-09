@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --white: #F1F1F1;
+    --black: #000;
+    --gray: #8E98A8;
+    --gray-medium:#C0C0C0;
+    --gray-dark: #6F7784;
+    --yellow: #fcc521;
+    --orange: #F6A50F;
+}
+
+#container {
+    background-color: var(--white);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.seta-esquerda {
+    width: 50px;
+    margin: 70px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h1 {
+    transform: translate(160px, -15px);
+}
+
+.conta {
+    display: flex;
+}
+
+.conta a {
+    color: var(--gray); 
+    text-decoration: none; 
+    font-size: 23px;
+    transform: translate(295px, 35px);
+}
+
+.conta a.ativo {
+    font-weight: 600; 
+    color: var(--black);
+    transform: translate(175px, 35px);
+}
+
+.barra {
+    width: 530px;
+    height: 6px;
+    border-radius: 2px;
+    background-color: var(--gray);
+}
+
+.barra {
+    transform: translate(115px, 60px);
+}
+
+.barra_dupla {
+    width: 265px; 
+    height: 6px;
+    background-color: var(--orange); 
+}
+
+.formulario_login {
+    transform: translate(90px, 130px);
+}
+
+.formulario_login label {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 38px;
+    color: var(--gray-dark);
+}
+
+.formulario_login input {
+    width: 530px;
+    height: 60px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    border-radius: 12px;
+    border: 2px solid var(--gray-dark);
+}
+
+.EMAIL,
+.SENHA {
+    display: flex;
+    flex-direction: column;
+}
+
+#email,
+#password {
+    font-size: 22px;
+}
+
+button {
+    width: 380px;
+    height: 60px;
+    margin-left: 90px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--gray-medium);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img_lc {
+    width: 1200px;
+}
+
+.img_lc {
+    transform: translate(470px, -450px);
+}

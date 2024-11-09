@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+@font-face {
+    font-family:'Greenth';
+    src: url('../fonts/Greenth_Personal_Use.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --yellow: #fcc521;
+    --light-orange: #FDCA6A;
+    --light-orange-hover: #FFBB3D;
+    --orange: #F6A50F;
+    --blue: #181D47;
+    --white: #fff;
+}
+
+main {
+    transform: translate(0px, 100px);
+}
+
+body {
+    background-color: var(--yellow);
+    font-family: Greenth;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.fundo-azul {
+    background-color: var(--blue);
+    width: 580px;
+    height: 600px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--yellow);
+}
+
+h1 {
+    font-family: 'Greenth';
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+h1 {
+    transform: translate(0px, 50px);
+}
+
+.circulo {
+    transform: translate(180px, 20px);
+}
+
+.circulo {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 10px solid var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.circulo span {
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+p {
+    transform: translate(0px, 65px);
+}
+
+p {
+    font-size: 30px;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+
+.botoes {
+    transform: translate(0px, 70px);
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 55px;
+}
+
+.refazer {
+    background-color: var(--yellow);
+    color: var(--blue);
+    border: none;
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.sair {
+    background-color: var(--orange);
+    color: var(--blue);
+    border: none;
+    padding: 20px 75px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.refazer:hover {
+    background-color: var(--light-orange-hover);
+}
+
+.sair:hover {
+    background-color: var(--light-orange);
+}
