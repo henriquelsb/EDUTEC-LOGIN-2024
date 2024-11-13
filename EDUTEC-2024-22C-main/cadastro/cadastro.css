@@ -21,17 +21,12 @@
     margin: 0 auto;
 }
 
-.seta-esquerda {
-    width: 50px;
-    margin: 70px;
-}
-
 h1 {
     font-size: 25px;
 }
 
 h1 {
-    transform: translate(160px, -15px);
+    transform: translate(160px, 160px);
 }
 
 .conta {
@@ -42,13 +37,13 @@ h1 {
     color: var(--gray); 
     text-decoration: none; 
     font-size: 23px;
-    transform: translate(175px, 35px);
+    transform: translate(175px, 210px);
 }
 
 .conta a.ativo {
     font-weight: 600; 
     color: var(--black);
-    transform: translate(295px, 35px);
+    transform: translate(295px, 210px);
 }
 
 .barra {
@@ -59,7 +54,7 @@ h1 {
 }
 
 .barra {
-    transform: translate(115px, 60px);
+    transform: translate(115px, 230px);
 }
 
 .barra_dupla {
@@ -69,7 +64,7 @@ h1 {
 }
 
 .formulario_cadastro {
-    transform: translate(90px, 90px);
+    transform: translate(90px, 270px);
 }
 
 .formulario_cadastro label {
@@ -122,5 +117,10 @@ button {
 }
 
 .img_lc {
-    transform: translate(470px, -612px);
+    transform: translate(470px, -380px);
+}
+
+button:hover {
+    background-color: var(--yellow); /* Cor amarela definida na variável */
+    transition: background-color 0.3s ease;
 }
